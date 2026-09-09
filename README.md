@@ -15,7 +15,15 @@ Assigned Lead Examiner: Charles Jeremiah Nosa was assigned to complete stages 4 
 
 <h2>Digital Forensics Methodology</h2>
 * Identification: Specifying media and digital evidence related to the incident.
-* 
+* Preservation: Maintaining evidence integrity through cryptographic hashing. 
+* Acquisition: Creating bit-stream forensic images (E01). 
+* Examination: Forensic extraction of active, system, and deleted files 
+* Analysis: Translating raw technical artifacts into legally defensible findings. 
+* Documentation: Continuous real-time record keeping of tools, paths, and procedures.
+* Reporting: Synthesis of findings into a structured, technical report.
+* Presentation: Expert presentation of evidence to decision-makers.
+ Primary Forensic Toolset : Autopsy 4.20.1 Forensic processing, ingest module parsing, artifact extraction, and deleted file recovery.
+
 
 
 
@@ -31,10 +39,17 @@ Overview of the incident writtern by the boss: <br/>
 <img src="https://i.imgur.com/jvHKg61.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-The process :  <br/>
+The process: Launching Autopsy <br/>
 <img src="https://i.imgur.com/MuISiQY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+Source file: Github repo <br/>
+<img src="https://i.imgur.com/Y2fJZBG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
+
+  
 Enter the number of passes: <br/>
 <img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
